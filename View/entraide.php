@@ -88,12 +88,12 @@
                 <button class="tablinks" onclick="texts(event, 'AideA')">Aide alimentaire</button>
                 <button class="tablinks" onclick="texts(event, 'VestiaireS')">Vestiaire social</button>
             </div>
-            <div class="titleParaPoleEntraide"><?php
+            <div class="titleParaPoleEntraide">Pôle</div>
+            <div id="Entraide" class="tabcontent">
+                <h2><?php
                 $take = $listView[2];
                 echo $take->getThetitle();
-                ?></div>
-            <div id="Entraide" class="tabcontent">
-
+                    ?></h2>
                 <div class="paraEntraide">
                     <h2></h2>
                     <br>
@@ -103,12 +103,12 @@
                 </div>
             </div>
             <div id="AideAd" class="tabcontent">
-
+                <h2><?php
+                    $take = $listView[13];
+                    echo $take->getThetitle();
+                    ?></h2>
                 <div class="paraEntraide">
-                    <h2><?php
-                        $take = $listView[13];
-                        echo $take->getThetitle();
-                        ?></h2>
+
                     <br>
                     <br>
                     <?php echo $take->getThetext();
@@ -117,12 +117,12 @@
                 </div>
             </div>
             <div id="AideA" class="tabcontent">
-
+                <h2><?php
+                    $take = $listView[14];
+                    echo $take->getThetitle();
+                    ?></h2>
                 <div class="paraEntraide">
-                    <h2><?php
-                        $take = $listView[14];
-                        echo $take->getThetitle();
-                        ?></h2>
+
                     <br>
                     <br>
                     <?php echo $take->getThetext();
@@ -130,12 +130,12 @@
                 </div>
             </div>
             <div id="VestiaireS" class="tabcontent">
-
+                <h2><?php
+                    $take = $listView[15];
+                    echo $take->getThetitle();
+                    ?></h2>
                 <div class="paraEntraide">
-                    <h2><?php
-                        $take = $listView[15];
-                        echo $take->getThetitle();
-                        ?></h2>
+
                     <br>
                     <br>
                     <?php echo $take->getThetext();

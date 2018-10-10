@@ -3,7 +3,7 @@
         <div class="head-l">
             <div class="socialg">
                 <div class="socialf"><a href="https://www.facebook.com/entraideetculture/" class="social"><img src="View/img/facebook.png" alt="facebook"/></a></div>
-                
+
             </div>
             <span class="panel__zoom1 js-zoom">
                     <div class="cercle1">

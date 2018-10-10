@@ -75,11 +75,13 @@
         <div class=column_A>
             <div class=zoom>
                 <div class="col-lg-1 padbot30 gallery_img lorem" id="grandephoto">
-                    <a href="View/images/gallery/child_512.jpg" data-gal="prettyPhoto[gal]">
+                    <a href="View/images/gallery/murs_512.jpg" data-gal="prettyPhoto[gal]">
                         <i></i>
-                        <img src="View/images/gallery/child_512.jpg" alt="" style="width: 100%;" /></a>
+                        <img src="View/images/gallery/murs_512.jpg" alt="" style="width: 100%;
+    height: 100%;" /></a>
                 </div>
             </div>
+
             <script type="text/javascript">
                 function afficheGrandePhoto(imageCliquee) {
                     /* je récupère dans l'attribut alt de l'image cliquée son nom */
@@ -121,7 +123,7 @@
                 $take = $listView[1];
                 echo $take->getThetitle();
                 ?></div>
-
+            <h2>sommes-nous ?</h2>
             <div class="paraPresentation">
                 <h2></h2>
                 <br>

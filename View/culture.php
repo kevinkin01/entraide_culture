@@ -90,12 +90,13 @@
                 <button class="tablink" onclick="text(event, 'Ecole')">Ecole des devoirs</button>
                 <button class="tablink" onclick="text(event, 'Ntic')">N.T.I.C</button>
             </div>
-            <div class="titleParaPoleCulture"><?php
-                $take = $listView[6];
-                echo $take->getThetitle();
-                ?></div>
-            <div id="Culture" class="tabcontent1">
+            <div class="titleParaPoleCulture">Pôle</div>
 
+            <div id="Culture" class="tabcontent1">
+                <h2><?php
+                    $take = $listView[6];
+                    echo $take->getThetitle();
+                    ?></h2>
             <div class="paraCulture">
 
                 <br>
@@ -106,12 +107,12 @@
                 </div>
             </div>
             <div id="Alphabetisation" class="tabcontent1">
-
-                <div class="paraCulture">
-                    <h2><?php
+                <h2><?php
                     $take = $listView[10];
                     echo $take->getThetitle();
-                        ?></h2>
+                    ?></h2>
+                <div class="paraCulture">
+
                     <br>
                     <br>
                     <?php echo $take->getThetext();
@@ -120,12 +121,12 @@
                 </div>
             </div>
             <div id="Ecole" class="tabcontent1">
-
-                <div class="paraCulture">
-                   <h2><?php
+                <h2><?php
                     $take = $listView[11];
                     echo $take->getThetitle();
-                       ?></h2>
+                    ?></h2>
+                <div class="paraCulture">
+
                     <br>
                     <br>
                     <?php echo $take->getThetext();
@@ -133,12 +134,12 @@
                 </div>
             </div>
             <div id="Ntic" class="tabcontent1">
-
-                <div class="paraCulture">
-                   <h2><?php
+                <h2><?php
                     $take = $listView[12];
                     echo $take->getThetitle();
-                       ?></h2>
+                    ?></h2>
+                <div class="paraCulture">
+
                     <br>
                     <br>
                     <?php echo $take->getThetext();

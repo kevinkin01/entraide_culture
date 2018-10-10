@@ -105,22 +105,23 @@
                     </section>
                     <section id="vignettes">
                         <ul>
-                            <li><img src="View/images/gallery/hands_128.jpg" alt="" width="128" height="96"
-                                     onclick="afficheGrandePhotoancrage(this);"/></li>
-                            <li><img src="View/images/gallery/bike_128.jpg" alt="" width="128" height="96"
-                                     onclick="afficheGrandePhotoancrage(this);"/></li>
+                            <li><img src="View/images/gallery/fire_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhotoancrage(this);"/></li>
+                            <li><img src="View/images/gallery/ae_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhotoancrage(this);" /></li>
+                            <li><img src="View/images/gallery/cercle_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhotoancrage(this);" /></li>
                         </ul>
                     </section>
                 </div>
                 <div class="imagePara">
-
+                    <p>L’ASBL Entraide et Culture, créée en 1983 à Forest par des bénévoles, apporte une aide et un soutien à un public précarisé et fragilisé.</p>
                 </div>
+
             </div>
             <div class=column_B>
                 <div class="titlePresentation"><?php
                     $take = $listView[0];
                     echo $take->getThetitle();
                     ?></div>
+                <h2>local</h2>
                 <div id="myDIVpresentation"></div>
 
                 <div class="paraPresentation">
