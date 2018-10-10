@@ -118,8 +118,8 @@
             <div class="titlePresentation">asbl</div>
             <h2>mapping</h2>
             <div class="asblmapping">
-                <object data="View/img/mindmapEC.svg" width="100%"
-                        height="100%" type="image/svg+xml">
+                <object data="View/img/mindmapEC.svg" width="90%"
+                        height="90%" type="image/svg+xml">
                     <embed src="View/img/mindmapEC.svg" width="500"
                            height="500" type="image/svg+xml" />
                 </object>

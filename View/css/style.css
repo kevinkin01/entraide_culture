@@ -1546,16 +1546,13 @@ a.imageArticle1:hover img {
     width: 20%;
 }
 
-.paraEntraide {
+.paraEntraide li:active {
     text-transform: none !important;
     text-align: justify!important;
     padding-left: 40px;
     padding-right: 40px;
     overflow: scroll;
     height: 576px;
-}
-
-.paraEntraide {
 }
 
 .paraAncrageLocalB {
