@@ -5,7 +5,7 @@
                 <div class="socialg">
                     <div class="socialf"><a href="https://www.facebook.com/entraideetculture/" class="social"><img
                                     src="View/img/facebook.png" alt="facebook"/></a></div>
-                    <div class="socialv"><a href="#" class="social"><img src="View/img/v.png" alt="vimeo"/></a></div>
+
                 </div>
                 <span class="panel__zoom1 js-zoom">
                     <div class="cercle1">
@@ -117,13 +117,14 @@
                 </div>
             </div>
             <div class=column_B>
+                <div class="titlePresentation"><?php
+                    $take = $listView[0];
+                    echo $take->getThetitle();
+                    ?></div>
                 <div id="myDIVpresentation"></div>
 
                 <div class="paraPresentation">
-                    <?php
-                    $take = $listView[0];
-                   echo $take->getThetitle();
-                    ?>
+
                     <br>
                     <?php
                     echo $take->getThetext();

@@ -32,6 +32,7 @@ if(isset($error)) echo "<h3>$error</h3>";
     <label for="lthetitle" class="col-sm-2 col-form-label">Titre</label>
     <div class="col-sm-10">
       <input type="text" name="thetitle" class="form-control" id="lthetitle" placeholder="Entrez le titre de l'article">
+
     </div>
 </div>
 <div class="form-group row">

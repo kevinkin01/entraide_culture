@@ -3,7 +3,7 @@
         <div class="head-l">
             <div class="socialg">
                 <div class="socialf"><a href="https://www.facebook.com/entraideetculture/" class="social"><img src="View/img/facebook.png" alt="facebook"/></a></div>
-                <div class="socialv"><a href="#" class="social"><img src="View/img/v.png" alt="vimeo"/></a></div>
+
             </div>
             <span class="panel__zoom1 js-zoom">
                     <div class="cercle1">
@@ -88,14 +88,14 @@
                 <button class="tablinks" onclick="texts(event, 'AideA')">Aide alimentaire</button>
                 <button class="tablinks" onclick="texts(event, 'VestiaireS')">Vestiaire social</button>
             </div>
-            <div class="titleParaPoleEntraide"></div>
+            <div class="titleParaPoleEntraide"><?php
+                $take = $listView[2];
+                echo $take->getThetitle();
+                ?></div>
             <div id="Entraide" class="tabcontent">
 
                 <div class="paraEntraide">
-                    <h2><?php
-                        $take = $listView[2];
-                        echo $take->getThetitle();
-                        ?></h2>
+                    <h2></h2>
                     <br>
                     <br>
                     <?php echo $take->getThetext();
