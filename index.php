@@ -4,6 +4,9 @@
  */
 session_start();
 require_once "config.php";
+
+require_once "vendor/autoload.php";
+
 spl_autoload_register(function ($nameClass) { 
     require_once "Model/$nameClass.class.php";
 });
