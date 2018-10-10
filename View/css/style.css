@@ -81,6 +81,7 @@ a {
     color: #333;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 img {
@@ -297,8 +298,7 @@ h1 {
 .panel__zoom2 {
     cursor: pointer;
     z-index: 1;
-    transform: translateX(20%);
-    /* border-top: 1px solid #f5b435; */
+    transform: translateX(25%);
 }
 
 .panel__zoom2:hover {
@@ -420,22 +420,11 @@ section {
 
 .socialf {
     opacity: 0.9;
-    filter: sepia(57%);
+    filter: sepia(100%);
     -webkit-transition: all 0.3s;
 }
 
 .socialf:hover {
-    filter: none!important;
-}
-
-.socialv {
-    opacity: 0.9;
-    filter: sepia(77%);
-    padding-left: 6px;
-    -webkit-transition: all 0.3s;
-}
-
-.socialv:hover {
     filter: none!important;
 }
 
@@ -511,6 +500,8 @@ ul, li {
 
 p {
     margin: 0 0 20px;
+    text-transform: none !important;
+    /* text-align: justify!important; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -765,7 +756,7 @@ header .social a {
 
 .formetitre1:hover {
     background: white;
-    -webkit-transition: all 0.7s;
+    -webkit-transition: all 1.1s;
     border: 17px solid #fcbc1f52;
 }
 
@@ -782,7 +773,7 @@ header .social a {
 
 .formetitre2:hover {
     background: white;
-    -webkit-transition: all 0.7s;
+    -webkit-transition: all 1.1s;
     border: 17px solid #007c718f;
 }
 .formeinfo1 {
@@ -815,7 +806,7 @@ header .social a {
 
 .texteculture a,a:link {
     user-select: none;
-    font-size: 1.25em;
+    font-size: 1em;
     color: #000000;
     -webkit-transition: all 0.3s;
 }
@@ -1134,6 +1125,8 @@ a.imageArticle1:hover img {
 
 .clients_wrap a {
     display: block;
+    opacity: 0.7;
+    filter: sepia(100%);
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1148,6 +1141,7 @@ a.imageArticle1:hover img {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+    filter: none;
 }
 
 .icons {
@@ -1157,13 +1151,13 @@ a.imageArticle1:hover img {
 
 /* form valid style */
 #sendmessage {
-    border: 1px solid #fff;
     display: none;
+    color: #000000;
     text-align: center;
     padding: 15px 12px 15px;
     margin: 10px 0;
-    font-weight: 600;
     margin-bottom: 30px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #sendmessage.show,.show {
@@ -1174,7 +1168,7 @@ a.imageArticle1:hover img {
     display: none;
     margin-bottom: 10px;
     font-size: 12px;
-    color: #8a3147;
+    color: #000000;
 }
 
 /*--End---------------------------------------------------------------------------------*/
@@ -1704,6 +1698,7 @@ a.imageArticle1:hover img {
 }
 
 @media(max-width: 500px) {
+
 }
 
 .logo {
@@ -1854,4 +1849,12 @@ a.imageArticle1:hover img {
     font-size: 12px;
     text-align: center;
     padding-left: 35px;
+}
+.asblmapping {
+    width: 100%;
+    margin-top: -78px;
+    /* z-index: auto; */
+}
+.alimentaire {
+
 }

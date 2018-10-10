@@ -103,11 +103,11 @@
                 </section>
                 <section id="vignettes">
                     <ul>
-                        <li><img src="View/images/gallery/child_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);" /></li>
-                        <li><img src="View/images/gallery/hands_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);"/></li>
-                        <li><img src="View/images/gallery/bike_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);" /></li>
-                        <li><img src="View/images/gallery/friends_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);" /></li>
-                        <li><img src="View/images/gallery/ok_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);" /></li>
+                        <li><img src="View/images/gallery/brico_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);" /></li>
+                        <li><img src="View/images/gallery/group_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);"/></li>
+                        <li><img src="View/images/gallery/murs_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);" /></li>
+                        <li><img src="View/images/gallery/skeleton_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);" /></li>
+                        <li><img src="View/images/gallery/tapis_128.jpg" alt="" width="128" height="96" onclick="afficheGrandePhoto(this);" /></li>
                     </ul>
                 </section>
             </div>

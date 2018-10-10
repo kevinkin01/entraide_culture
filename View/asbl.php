@@ -117,8 +117,12 @@
             <div id="myDIVpresentation"></div>
             <div class="titlePresentation">asbl</div>
             <h2>mapping</h2>
-            <div class="paraPresentation">
-
+            <div class="asblmapping">
+                <object data="View/img/mindmapEC.svg" width="100%"
+                        height="100%" type="image/svg+xml">
+                    <embed src="View/img/mindmapEC.svg" width="500"
+                           height="500" type="image/svg+xml" />
+                </object>
             </div>
 
         </div>

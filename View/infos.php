@@ -3,7 +3,7 @@
         <div class="head-l">
             <div class="socialg">
                 <div class="socialf"><a href="https://www.facebook.com/entraideetculture/" class="social"><img src="View/img/facebook.png" alt="facebook"/></a></div>
-                <div class="socialv"><a href="#" class="social"><img src="View/img/v.png" alt="vimeo"/></a></div>
+                
             </div>
             <span class="panel__zoom1 js-zoom">
                     <div class="cercle1">
@@ -158,30 +158,40 @@
             <div class="padbot30">
                 <div class="row clients_wrap">
                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
-                        <a class="client_logo" href="javascript:void(0);"><img src="View/images/clients/6.png" alt="" /></a>
+                        <a class="client_logo" href="http://www.actiris.be/tabid/173/language/fr-BE/A-propos-d-Actiris.aspx" target="_blank"><img src="img/AC.png" alt="" /></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
-                        <a class="client_logo" href="javascript:void(0);"><img src="View/images/clients/6.png" alt="" /></a>
+                        <a class="client_logo" href="https://www.spfb.brussels/" target="_blank"><img src="View/img/CO.png" alt="" /></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
-                        <a class="client_logo" href="javascript:void(0);"><img src="View/images/clients/6.png" alt="" /></a>
+                        <a class="client_logo" href="http://www.federation-wallonie-bruxelles.be/" target="_blank"><img src="View/img/BE.png" alt="" /></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
-                        <a class="client_logo" href="javascript:void(0);"><img src="View/images/clients/6.png" alt="" /></a>
+                        <a class="client_logo" href="http://www.forest.irisnet.be/" target="_blank"><img src="View/img/FR.png" alt="" /></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
-                        <a class="client_logo" href="javascript:void(0);"><img src="View/images/clients/6.png" alt="" /></a>
+                        <a class="client_logo"href="http://www.one.be/" target="_blank"><img src="View/img/NE.png" alt="" /></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
-                        <a class="client_logo" href="javascript:void(0);"><img src="View/images/clients/6.png" alt="" /></a>
+                        <a class="client_logo" href="https://ec.europa.eu/" target="_blank"><img src="View/img/EU.png" alt="" /></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
+                        <a class="client_logo" href="http://www.cpasforest.irisnet.be/" target="_blank"><img src="View/img/CP.png" alt="" /></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
+                        <a class="client_logo" href="http://www.lire-et-ecrire.be/bruxelles" target="_blank"><img src="View/img/LE.png" alt="" /></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
+                        <a class="client_logo" href="https://www.mi-is.be/fr" target="_blank"><img src="View/img/INT.png" alt="" /></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 padbot10">
+                        <a class="client_logo" href="http://www.foodbank-brabant.be/" target="_blank"><img src="View/img/FD.png" alt="" /></a>
                     </div>
                 </div>
             </div>
-                </div>
+        </div>
+                <!---------------END conteneur infos pratiques------------------->
             </div>
+    </div>
 
 
-    <!---------------END conteneur infos pratiques------------------->
-
-</div>
-</div>
