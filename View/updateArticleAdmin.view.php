@@ -2,7 +2,7 @@
 # aaa112 - update Article view form
 ?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Admin - Modifier un article</title>
@@ -103,8 +103,6 @@ if(!$recup){
     <textarea name="thetext" id="editor1" rows="10" cols="80"><?=$recup2->getThetext()?></textarea>
 
     <script>
-        // Replace the <textarea id="editor1"> with a CKEditor
-        // instance, using default configuration.
         CKEDITOR.replace( 'editor1' );
     </script>
   </div>

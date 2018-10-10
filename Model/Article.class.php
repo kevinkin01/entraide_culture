@@ -53,7 +53,7 @@ class Article
 
 
 
-        $check = trim(htmlspecialchars(strip_tags($thetext),ENT_QUOTES));
+        $check = trim(htmlspecialchars($thetext,ENT_QUOTES));
         if(!empty($check)) {
             $this->thetext = $check;
         }

@@ -77,8 +77,7 @@ if(isset($error)) echo "<h3>$error</h3>";
 
 
     <script>
-        // Replace the <textarea id="editor1"> with a CKEditor
-        // instance, using default configuration.
+
         CKEDITOR.replace( 'editor1' );
     </script>
   </div>
@@ -88,6 +87,6 @@ if(isset($error)) echo "<h3>$error</h3>";
 <center><button type="submit" class="btn btn-primary">Ajouter l'article</button></center>
 </form>
 <footer><center>Copyright </center></footer>
-</div>
+
 </body>
 </html>
