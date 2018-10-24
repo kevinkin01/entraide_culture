@@ -106,6 +106,8 @@
                            <button class="e3" onclick="texts(event, 'AideAd')">Aide à domicile</button>
                            <br>
                            <button class="e3" onclick="texts(event, 'VestiaireS')">Vestiaire social</button>
+                           <br>
+                           <button class="e3" onclick="texts(event, 'ServiceS')">Service social</button>
                         </div>
                      </span>
             </div>

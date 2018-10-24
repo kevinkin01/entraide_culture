@@ -109,7 +109,7 @@
                     <div class="col-lg-4 col-md-4 padbot30 our_office_wrap">
                         <div id="contact-form">
                             <div id="sendmessage">Votre message a été bien envoyé. Merci!</div>
-                            <form class="contactForm" action="contact/contact.php" method="post" >
+                            <form class="contactForm" action="Controller/PublicController" method="post" >
                                 <div class="form-group">
                                     <input id="name" type="text" name="name" placeholder="Nom" data-rule="maxlen:4" data-msg="SVP, entrer minimun 4 charactères" />
                                     <div class="validation"></div>
@@ -148,6 +148,9 @@
                             </div>
 
                         </div>
+                        <p>
+                            <a href="View/donwload.php" class="btn btn info">Télécharger</a>
+                        </p>
                         <!-- //Row -->
                 </div>
         <div class=column_Binfo style="

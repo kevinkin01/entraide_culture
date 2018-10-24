@@ -87,6 +87,7 @@
                 <button class="tablinks" onclick="texts(event, 'AideAd')">Aide à domicile</button>
                 <button class="tablinks" onclick="texts(event, 'AideA')">Aide alimentaire</button>
                 <button class="tablinks" onclick="texts(event, 'VestiaireS')">Vestiaire social</button>
+                <button class="tablinks" onclick="texts(event, 'ServiceS')">Service social</button>
             </div>
             <div class="titleParaPoleEntraide">Pôle</div>
             <div id="Entraide" class="tabcontent">
@@ -142,7 +143,12 @@
                     ?>
                 </div>
             </div>
+            <div id="ServiceS" class="tabcontent">
+                <h2>Service Social</h2>
+                <div class="paraEntraide">
 
+                    <p>pas encore d'articles</p>
+                </div>
         </div>
     </div>
     <!---------------END conteneur entraide------------------->

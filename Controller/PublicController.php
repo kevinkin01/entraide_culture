@@ -4,6 +4,12 @@ $ArticleM = new ArticleManager($pdo);
 
 $UtilM = new AuthorManager($pdo);
 
+// advanced validator email
+use Egulias\EmailValidator\EmailValidator;
+use Egulias\EmailValidator\Validation\DNSCheckValidation;
+use Egulias\EmailValidator\Validation\MultipleValidationWithAnd;
+use Egulias\EmailValidator\Validation\RFCValidation;
+
 if(isset($_GET['login'])) {
 
     if(empty($_POST)){
@@ -46,7 +52,7 @@ if(isset($_GET['login'])) {
     require_once "View/index.php";
 }else {
 // Create the Transport
-    $transport = (new Swift_SmtpTransport('smtp.example.org', 25))
+    $transport = (new Swift_SmtpTransport('smtp.gmail.com', 3306))
         ->setUsername('your username')
         ->setPassword('your password')
     ;
